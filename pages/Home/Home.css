@@ -1,0 +1,108 @@
+.home-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/home-page-header.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-section {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-section-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ /* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Global font style */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Font styles for specific elements */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p, button, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.blog-section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.blog-section .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.top-exams {
+    position: relative;
+}
+
+.exams-wrapper {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.exam-item {
+    flex: 0 0 240px; /* Fixed width for each card */
+    margin-right: 10px; /* Space between cards */
+}
+
+.exam-card {
+    height: 100%; /* Make cards uniform height */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space between content */
+}
+
+.exam-logo {
+    width: 60px; /* Fixed width for logo */
+    height: 60px; /* Fixed height for logo */
+    margin-right: 10px; /* Space between logo and name */
+}
+
+.exam-card h3 {
+    font-size: 1.2rem; /* Adjust font size for exam name */
+    margin-bottom: 10px; /* Space below the name */
+}
+
+.exam-card p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-size: 0.95rem; /* Font size for readability */
+}
+.mt-3 {
+    margin-top: 700px; /* Adjust the spacing as needed */
+}
+

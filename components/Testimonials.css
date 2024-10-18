@@ -1,0 +1,20 @@
+/* Add this to your CSS file or in a style tag */
+.testimonials-container {
+    margin-top: 40px; /* Increased space above testimonials */
+    padding: 20px; /* Space inside testimonials */
+    border: 1px solid #ccc; /* Optional border for better visibility */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    margin-bottom: 20px; /* Space below the form */
+}
+
+/* Optional: If you have a class for your navbar, you can also add margin here */
+.navbar {
+    margin-bottom: 40px; /* Space below the navbar */
+}

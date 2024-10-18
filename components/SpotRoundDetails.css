@@ -1,0 +1,84 @@
+/* SpotRoundDetails.css */
+.college-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem; /* Increase font size */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.college-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some space above the image */
+    display: block; /* Ensure the image is on its own line */
+}
+
+.abbreviation {
+    font-size: 1.5rem; /* Slightly smaller font size for abbreviation */
+    color: #7f8c8d; /* Gray color for better contrast */
+}
+
+.spot-details-card {
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.spot-title {
+    font-size: 1.8rem; /* Increase font size for title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.cutoff-section {
+    padding: 15px; /* Add padding around cutoff sections */
+    border: 1px solid #ddd; /* Border for cutoff sections */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for sections */
+}
+
+.cutoff-year {
+    font-weight: bold;
+    color: #2980b9; /* Blue color for year */
+}
+
+.round-title {
+    font-weight: bold;
+    color: #c0392b; /* Dark red color for round titles */
+    margin-top: 15px; /* Space above the round title */
+}
+
+.detail-item {
+    background-color: #ffffff; /* White background for details */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between items */
+    padding: 10px; /* Padding inside items */
+}
+
+.detail-item:hover {
+    background-color: #ecf0f1; /* Light gray on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+/* SpotRoundDetails.css */
+.round-toggle-button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem; /* Increase font size for the toggle button */
+    margin-bottom: 10px; /* Space below the button */
+}
+
+.arrow-up, .arrow-down {
+    margin-left: 8px; /* Space between text and arrow */
+    border: solid black; /* Arrow color */
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow-down {
+    transform: rotate(45deg); /* Rotate to form a downward arrow */
+}
+
+.arrow-up {
+    transform: rotate(-135deg); /* Rotate to form an upward arrow */
+}

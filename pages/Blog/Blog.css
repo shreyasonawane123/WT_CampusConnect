@@ -1,0 +1,10 @@
+/* src/pages/Blog/Blog.css */
+
+.video-thumbnail {
+    height: auto; /* Adjust as necessary */
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}

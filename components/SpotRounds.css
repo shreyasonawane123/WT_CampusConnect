@@ -1,0 +1,50 @@
+/* SpotRound.css */
+
+.spot-round-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .spot-round-title {
+    font-size: 2rem; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #dc3545; /* Primary color */
+    margin-bottom: 15px; /* Spacing below the title */
+  }
+  
+  .spot-round-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .spot-round-item {
+    background-color: #ffffff; /* White background for list items */
+    margin: 10px 0; /* Margin between items */
+    padding: 15px; /* Padding inside each item */
+    border-radius: 5px; /* Rounded corners for items */
+    transition: transform 0.2s; /* Transition for hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .spot-round-item:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .spot-round-link {
+    pointer-events: auto; /* Ensure pointer events are enabled */
+    text-decoration: none; /* Optional: Remove underline */
+    color: blue; /* Optional: Set link color */
+  }
+  
+  .spot-round-item {
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  
+  .spot-round-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

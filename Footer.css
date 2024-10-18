@@ -1,0 +1,16 @@
+/* Footer.css */
+.bg-dark {
+    background-color: #343a40 !important; /* Ensure your footer background is dark */
+}
+
+.text-white {
+    color: #fff !important; /* Text color */
+}
+
+.text-primary {
+    color: #007bff !important; /* Primary color for brand */
+}
+
+.input-group {
+    margin-top: 10px;
+}
